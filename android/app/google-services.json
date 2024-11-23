@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "746483797039",
+    "project_id": "transfert-argent-d84bd",
+    "storage_bucket": "transfert-argent-d84bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746483797039:android:e026dc8f1bbc64fd918ada",
+        "android_client_info": {
+          "package_name": "freecode.com.transfert_argent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746483797039-e9sdvvhib3ld4iir7gv7b1f3rrv77g2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "freecode.com.transfert_argent",
+            "certificate_hash": "754e8a71d4212672229d3c589f27531c1d949764"
+          }
+        },
+        {
+          "client_id": "746483797039-7chrq0134988i4rmpf6f72dgabn5j6i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACMTR2k123AgHD9oW6EmZyqYzCnDmJdz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746483797039-7chrq0134988i4rmpf6f72dgabn5j6i4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "746483797039-ov8lg7d3e93rt6og6nnm4qmjt8c2n1q8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "freecode.com.transfertArgent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
