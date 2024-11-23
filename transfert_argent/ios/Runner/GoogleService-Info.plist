@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAy29KU5cJ5F9txTNEUBcIfw_EQ1-WGuFw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>746483797039</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>freecode.com.transfertArgent</string>
+	<key>PROJECT_ID</key>
+	<string>transfert-argent-d84bd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>transfert-argent-d84bd.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:746483797039:ios:36a393a90c117453918ada</string>
+</dict>
+</plist>
