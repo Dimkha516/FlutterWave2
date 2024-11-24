@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:get/get.dart';
+import 'package:transfert_argent/pages/planifications_page.dart';
 import 'package:transfert_argent/pages/sidebar_page.dart';
 import 'package:transfert_argent/pages/transaction_page.dart';
 import 'pages/login_page.dart';
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/sidebar', page: () => SidebarPage()),
         GetPage(name: '/depot', page: () => TransactionPage(type: 'Dépôt')),
         GetPage(name: '/retrait', page: () => TransactionPage(type: 'Retrait')),
+        GetPage(name: '/planifications', page: () => PlanificationsPage()),
       ],
     );
   }

@@ -111,7 +111,7 @@ class ClientHomePage extends StatelessWidget {
                       final transaction = controller.transactions[index];
                       final now = DateTime.now();
                       final canCancel =
-                          now.difference(transaction.date).inMinutes < 30;
+                          now.difference(transaction.date).inMinutes < 1;
 
                       return ListTile(
                         leading: Text(transaction.type),
@@ -135,22 +135,6 @@ class ClientHomePage extends StatelessWidget {
                     },
                   )),
           )
-          // Expanded(
-          //   child: Obx(() => controller.transactions.isEmpty
-          //       ? const Center(child: Text('Aucune transaction trouvée.'))
-          //       : ListView.builder(
-          //           itemCount: controller.transactions.length,
-          //           itemBuilder: (context, index) {
-          //             final transaction = controller.transactions[index];
-          //             return ListTile(
-          //               leading: Text(transaction.type),
-          //               title: Text('${transaction.montant} FCFA'),
-          //               subtitle: Text(transaction.date.toLocal().toString()),
-          //               trailing: Text(transaction.etat),
-          //             );
-          //           },
-          //         )),
-          // ),
         ],
       ),
     );

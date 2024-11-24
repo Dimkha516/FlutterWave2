@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:transfert_argent/controllers/client_home_controller.dart';
+import 'package:transfert_argent/pages/planifications_page.dart';
 
 class SidebarPage extends StatelessWidget {
   const SidebarPage({super.key});
@@ -20,6 +21,7 @@ class SidebarPage extends StatelessWidget {
             title: Text('Planifier transaction'),
             onTap: () {
               // Rediriger vers la page de planification
+              Get.to(() => PlanificationsPage());
             },
           ),
           ListTile(
